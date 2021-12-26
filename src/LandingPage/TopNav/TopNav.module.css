@@ -1,0 +1,17 @@
+:root {
+    --margin-spacing: 1.5rem;
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-around;
+    margin: var(--margin-spacing)
+}
+
+.left>* {
+    margin-left: var(--margin-spacing);
+}
+
+.right>* {
+    margin-right: 1.5rem;
+}
